@@ -1,5 +1,5 @@
 # Task
-# Redo Assigntment no. 02 and put function with it
+# Redo Assigntment no. 2.2 and put function with it
 
 def get_number_of_apples():
     no_apples = int(input("Suki! How many apples do you want to buy? "))
@@ -12,7 +12,8 @@ def get_number_of_oranges():
 
 
 def get_total_amount(apples, oranges):
-    return 20 * apples + 25 * oranges
+    total_amount = int(20 * apples + 25 * oranges)
+    return total_amount
 
 
 def display_output(payment):
